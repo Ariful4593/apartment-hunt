@@ -1,0 +1,28 @@
+.footer-section ul li{
+    list-style-type: none;
+  }
+  
+  .footer-section ul li a{
+    text-decoration: none;
+    color: white;
+    
+    
+  }
+  .footer-section{
+    color: white;
+  }
+  
+  .footer-section ul li img{
+    width: 30px;
+    margin-right: 20px;
+  }
+  .footer-section{
+    /* padding: 60px; */
+    background-color: #275A53;
+  }
+
+  /* @media screen and (max-width: 300px) and (min-width: 100px) {
+    .footer-section ul {
+      width: 300px;
+    }
+  } */
