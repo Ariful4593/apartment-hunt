@@ -4,13 +4,15 @@ import pinterest from '../../../images/logos/Vector-1.png';
 import linkedIn from '../../../images/logos/Vector-2.png';
 import youtube from '../../../images/logos/Vector-3.png';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import './Footer.css'
 const Footer = () => {
     return (
         <div className="container mw-100">
             <div className="row footer-section" >
                 <div className="col-12 col-sm-6 col-md-5 p-md-5 p-4">
-                    <h6>H#340(4th floor), Road #24</h6>
+                    <h6><FontAwesomeIcon icon={faMapMarkerAlt} /> H#340(4th floor), Road #24</h6>
                     <h6>New DOHS, Mohakali, Dhaka, Bangladesh</h6>
                     <h6>Phone: 018xxxxxxxx</h6>
                     <h6>Email: info@company.com</h6>
