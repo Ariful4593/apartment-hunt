@@ -18,7 +18,7 @@ const Footer = () => {
                     <h6>Email: info@company.com</h6>
 
                 </div>
-                <div className="col-12 col-sm-6 col-md-2 p-md-0 p-sm-4 p-md-4 pt-md-5">
+                <div className="col-6 col-sm-6 col-md-2 p-md-0 p-sm-4 p-md-4 pt-md-5">
 
                     <ul className="p-0">
                         <h5>Company</h5>
@@ -29,7 +29,7 @@ const Footer = () => {
                         <li><Link to="/">Submit Listing</Link></li>
                     </ul>
                 </div>
-                <div className="col-12 col-sm-6 col-md-2 p-md-0 p-sm-4 p-md-4  pt-md-5">
+                <div className="col-6 col-sm-6 col-md-2 p-md-0 p-sm-4 p-md-4  pt-md-5">
                     <ul className="p-0">
                         <h5>Quick Links</h5>
                         <li><Link to="/">Quick Links</Link></li>
